@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'indirajimenez-site-angular';
+
+  openWhatsapp(){
+    window.location.href = "https://wa.me/message/6WGUWO7VOCDXD1"
+
+  }
 }
